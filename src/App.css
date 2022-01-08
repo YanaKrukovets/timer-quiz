@@ -1,0 +1,76 @@
+
+.start{
+  /* Это изображение отобразиться на всю страницу */
+  background-image: url(https://images.unsplash.com/photo-1598329576956-4f74d5936247?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80);
+  min-height:100%;
+
+  /* Магия */
+  background-size:cover;
+  width: 100vw;
+  height: 100vh;
+  text-align:center;
+}
+
+.start h1 {
+  padding-top: 7em;
+}
+
+body{
+  /* Для некоторых мобильных браузеров */
+  min-height:100%;
+}
+
+.start a, .answer {
+  background-color: transparent;
+  border: 1px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+.start a:hover, .answer:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.start a:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.textColor {
+  color:rgb(254, 255, 255);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.tests {
+  margin: 5%;
+}
+
+.answer {
+  display: block;
+  margin-bottom: 10px;
+  width: 60%;
+}
+
+.red {
+  background-color:rgb(192, 10, 10);
+}
+
+.green {
+  background-color:rgb(103, 172, 34);
+}
